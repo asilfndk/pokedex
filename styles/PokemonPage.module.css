@@ -1,0 +1,127 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  color: #2c3e50;
+  font-size: 2.5rem; /* Değiştirilen satır */
+  margin-bottom: 20px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.infoBlock {
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.infoTitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #e74c3c; /* Kırmızı renk */
+  font-size: 1.5rem; /* Değiştirilen satır */
+}
+
+.infoValue {
+  margin: 0;
+  color: #555;
+  font-size: 1.5rem; /* Değiştirilen satır */
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.statBlock {
+  width: 48%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.statName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Kırmızı renk */
+  font-size: 1.2rem; /* Değiştirilen satır */
+}
+
+.statBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.statBar {
+  flex-grow: 1;
+  width: 100px; /* istediğiniz genişliği belirtin */
+  height: 20px; /* istediğiniz yüksekliği belirtin */
+  background-color: #ecf0f1; /* barın arkaplan rengi */
+  border-radius: 4px;
+  overflow: hidden; /* içeriği gizle */
+}
+
+.fillerBar {
+  height: 100%;
+  background-color: #3498db; /* dolu kısım rengi */
+  border-radius: 4px;
+}
+
+.statValue {
+  margin-left: 10px;
+  color: #555;
+  font-size: 1.2rem; /* Değiştirilen satır */
+}
+
+.typeContainer {
+  margin-top: 20px;
+}
+
+.typeTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.typeValue {
+  margin: 0;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.weaknessContainer {
+  margin-top: 20px;
+}
+
+.weaknessTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.weaknessValue {
+  margin: 0;
+  color: #555;
+  font-size: 1.2rem;
+}
